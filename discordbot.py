@@ -2,6 +2,7 @@ import discord  # type: ignore
 import os
 from dotenv import load_dotenv
 
+load_dotenv()
 intents = discord.Intents.default()
 intents.message_content = True
 
@@ -29,5 +30,5 @@ async def on_message_delete(message):
     await message.channel.send('Nice try SPOOK')
     await message.channel.send(userAuthor + ": " + message.content)
 
-load_dotenv()
-client.run(os.getenv('DISCORD'))
+
+client.run(os.getenv('TOKEN'))
