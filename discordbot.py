@@ -28,4 +28,4 @@ async def on_message_delete(message):
     await message.channel.send('Nice try SPOOK')
     await message.channel.send(userAuthor + ": " + message.content)
 
-client.run(os.getenv('DISCORD'))
+client.run('MTM3NTE0Njg0MTI1OTI0OTcyNA.GNuWYi.eysQ8ZW-JtvI2X4SqdZpylQOsN2TDVRC6Yn258')
