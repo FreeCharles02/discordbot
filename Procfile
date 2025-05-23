@@ -1,1 +1,1 @@
-web: python3 discordbot.py --bind :$PORT
+worker: python3 discordbot.py
